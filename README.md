@@ -61,7 +61,7 @@ Install the package once in R:
 install.packages("tidyverse")
 ```
 
-The source dataset is not included in this public repository. Before running the script, open [`Attrition Analysis.R`](Attrition%20Analysis.R) and set the `url` value near the top of the file to an accessible CSV path or URL:
+The source dataset is not included in this public repository. To run the script, open [`Attrition Analysis.R`](Attrition%20Analysis.R) and set the `url` value near the top of the file to an accessible CSV path or URL that follows the provided data dictionary provided in the R file:
 
 ```r
 url <- "path/to/your/employee_attrition.csv"
